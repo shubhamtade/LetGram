@@ -1,0 +1,107 @@
+@import "../../App.css";
+
+.profileCard {
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    overflow-x: clip;
+    background: var(--cardColor);
+}
+
+.profileImg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profileImg > img:nth-of-type(1) {
+    width: 100%;
+}
+
+.profileImg > img:nth-of-type(2) {
+    width: 6rem;
+    border-radius: 50%;
+    bottom: -50%;
+    position: absolute;
+    box-shadow: var(--profileShadow);
+}
+
+.profileName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5px;
+}
+
+.profileName > span:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.profileName > span:nth-of-type(2) {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.followStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.followStatus > hr {
+    width: 85%;
+    border: 1px solid var(--hrColor);
+}
+
+.followStatus >div {
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vl {
+height: 150%;
+border-left: 2px solid var(--hrColor);
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow > span:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.follow > span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 13px;
+}
+
+
+.profileCard >span {
+    font-weight: bold;
+    color: var(--Magenta);
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: color 0.5s ease; 
+}
+
+.profileCard > span:hover {
+  color: #f2008977; 
+}
+
