@@ -1,0 +1,27 @@
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  grid-area: 0.75rem;
+  background-color: var(--cardColor);
+  padding: 1rem;
+  border-radius: 1rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.infoHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoHead > div:hover {
+    cursor: pointer;
+}
+
+.lgBtn {
+    width: 7rem;
+    height: 2rem;
+    margin-top: 6rem;
+    align-self: flex-end;
+}

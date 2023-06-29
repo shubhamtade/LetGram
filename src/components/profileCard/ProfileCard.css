@@ -26,7 +26,7 @@
 .profileImg > img:nth-of-type(2) {
     width: 6rem;
     border-radius: 50%;
-    bottom: -50%;
+    bottom: -3rem;
     position: absolute;
     box-shadow: var(--profileShadow);
 }
